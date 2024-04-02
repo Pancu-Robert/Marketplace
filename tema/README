@@ -1,0 +1,16 @@
+// Pancu Robert-George 334CA
+
+    Am folosit liste si dictionare pentru stocarea produselor si a elementelor
+    din carturi. Pentru a delimita zone critice am folosit un Lock pe post de
+    mutex. Nu am creat alte module, le-am folosit doar pe cele date.
+
+    Intreaga cerinta a fost implementata, mai putin mesajele de log
+    
+    Ca si dificultate am avut o problema la testul 10 care era singurul
+    care nu mergea deoarece nu puneam lock pe print-uri
+
+    https://ocw.cs.pub.ro/courses/asc/laboratoare/02
+    https://ocw.cs.pub.ro/courses/asc/laboratoare/03
+
+    Tema a fost destul de utila, dar a fost putin mai greu pana m-am prins
+    de ce trebuie facut
